@@ -4,7 +4,8 @@ import folium
 from phonenumbers import geocoder
 phone_number = input(str("Inserer un numéro ici : " ))
 
-apikey = "425a9701237044eab1dfb3caa126fc6b"
+#get your api key on opencage
+apikey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 samNumber = phonenumbers.parse(phone_number)
 
